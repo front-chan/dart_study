@@ -1,12 +1,18 @@
+bool isEmpty(String string) => string.length == 0;
+// void main() {
+//   isEmpty(null); // 런타임 에러발생
+// }
+
 void main() {
-  dynamic name;
-  // name = 'chan';
-  // name = 15;
-  // name = true;
-  if (name is String) {
-    // name.
-  }
-  if (name is int) {
-    // name.
-  }
+  String? name = 'chan';
+  name = null;
+
+  // if (name != null) {
+  //   name.length;
+  //   name.isNotEmpty;
+  // }
+
+  // 이렇게도 작성할 수 있음
+  name?.length;
+  name?.isNotEmpty;
 }
