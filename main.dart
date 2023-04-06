@@ -1,3 +1,4 @@
 void main() {
-  print('hello world');
+  var name = 'chan';
+  String nickName = 'chanchan';
 }
