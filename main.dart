@@ -1,10 +1,8 @@
 void main() {
-  late final name;
-  // print(name); // 데이터가 없기 때문에 에러 발생
+  // const name = 'chan';
+  // name = 'chan'; // 수정할 수 없음
 
-  // 정확하게 해주려면 타입 지정 가능
-  // late final String name;
-
-  // api를 받아 변수에 넣어주기
-  name = 'chan';
+  const API = '1212121212';
+  // const API = fetchAPI(); // 에러
+  // final API = fetchAPI(); // 이 경우 final로 작성
 }
